@@ -1,3 +1,5 @@
+package spacecoding.array.oggetti;
+
 public class Mesi {
     private Mese[] mesi = new Mese[12];
 

@@ -1,3 +1,5 @@
+package spacecoding.array.oggetti;
+
 public class Mese {
     private String nome;
     private int giorni;
