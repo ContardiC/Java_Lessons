@@ -1,0 +1,33 @@
+Index: src/spacecoding/array/oggetti/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/spacecoding/array/oggetti/Main.java b/src/spacecoding/array/oggetti/Main.java
+--- a/src/spacecoding/array/oggetti/Main.java	
++++ b/src/spacecoding/array/oggetti/Main.java	
+@@ -13,7 +13,7 @@
+         try{
+             System.out.println("Inserisci il numero di un mese (da 1 a 12)");
+             numeroMese=Integer.parseInt(keyboard.readLine());
+-            System.out.println("spacecoding.array.oggetti.Mese: "+ mesi.getMese(numeroMese)+ " ed ha "+mesi.getGiorni(numeroMese)+" giorni");
++            System.out.println("Mese: "+ mesi.getMese(numeroMese)+ " ed ha "+mesi.getGiorni(numeroMese)+" giorni");
+ 
+         }catch(IOException e){
+ 
+Index: Java Lessons.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Java Lessons.iml b/Java Lessons.iml
+--- a/Java Lessons.iml	
++++ b/Java Lessons.iml	
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="JAVA_MODULE" version="4">
+-  <component name="NewModuleRootManager" inherit-compiler-output="true">
++  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+     <exclude-output />
+     <content url="file://$MODULE_DIR$">
+       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
