@@ -17,6 +17,8 @@ public class NoteWindow {
         txtTitle=new JTextField();
         txtTitle.setBounds(100,0,300,30);
         txtNote=new JTextArea();
+        txtTitle.setText("");
+        txtNote.setText("");
         btnSaveNote=new JButton("Save");
         pnl.setLayout(new BorderLayout());
         pnl.add(txtTitle,BorderLayout.NORTH);

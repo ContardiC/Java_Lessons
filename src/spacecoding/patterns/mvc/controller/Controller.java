@@ -1,5 +1,6 @@
 package spacecoding.patterns.mvc.controller;
 
+import spacecoding.patterns.mvc.model.Note;
 import spacecoding.patterns.mvc.view.NoteWindow;
 
 import javax.swing.*;
@@ -17,10 +18,12 @@ public class Controller implements ActionListener {
     private String noteBody;
     private File notes;
     private FileWriter fileWriter;
+    private Note note;
     public Controller(NoteWindow noteWindow){
         this.noteWindow=noteWindow;
         this.noteWindow.getBtnSaveNote().addActionListener(this);
         notes=new File("notes.csv");
+        note=new Note();
     }
 
     @Override
@@ -28,14 +31,18 @@ public class Controller implements ActionListener {
         if(e.getSource()==noteWindow.getBtnSaveNote()){
             JLabel lblDialog=new JLabel("La nota è vuota non può essere salvata");
             System.out.println("Save Button clicked");
-            if(noteWindow.getTxtNote().getText().equals("")){
-                System.out.println("Nota vuota");
+            note.setTitle(noteWindow.getTxtTitle().getText());
+            note.setBody(noteWindow.getTxtNote().getText());
+            System.out.println(note.toString());
+            if(note.getBody().equals("")){
                 JOptionPane.showMessageDialog(noteWindow.getFrm(),"La nota è vuota");
             }else{
-                if(noteWindow.getTxtTitle().getText().length() == 0 || noteWindow.getTxtTitle().equals("")){
-                    noteTitle="Senza Nome"+";";
+                if(note.getTitle().equals("")){
+                    noteTitle="SENZA NOME"+";";
+                }else{
+                    noteTitle=note.getTitle();
                 }
-                noteBody=noteWindow.getTxtNote().getText();
+                noteBody=note.getBody();
                 try {
                     try {
                         fileWriter=new FileWriter(notes,true);

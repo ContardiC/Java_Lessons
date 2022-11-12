@@ -11,6 +11,9 @@ public class Note implements Serializable {
         this.body=body;
         this.priority=priority;
     }
+    public Note(){
+
+    }
 
     public String getTitle() {
         return title;
@@ -34,5 +37,13 @@ public class Note implements Serializable {
 
     public void setPriority(int priority) {
         this.priority = priority;
+    }
+
+    @Override
+    public String toString() {
+        return "Note{" +
+                "title='" + title + '\'' +
+                ", body='" + body + '\'' +
+                '}';
     }
 }
