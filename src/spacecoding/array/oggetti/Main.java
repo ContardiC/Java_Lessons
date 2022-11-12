@@ -13,7 +13,7 @@ public class Main {
         try{
             System.out.println("Inserisci il numero di un mese (da 1 a 12)");
             numeroMese=Integer.parseInt(keyboard.readLine());
-            System.out.println("spacecoding.array.oggetti.Mese: "+ mesi.getMese(numeroMese)+ " ed ha "+mesi.getGiorni(numeroMese)+" giorni");
+            System.out.println("Mese: "+ mesi.getMese(numeroMese)+ " ed ha "+mesi.getGiorni(numeroMese)+" giorni");
 
         }catch(IOException e){
 
