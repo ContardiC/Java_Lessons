@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/geometry/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/model/Note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/view/NoteWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Lessons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/array/oggetti/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/array/oggetti/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="mvc pattern added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +89,21 @@
       <workItem from="1665416973749" duration="76000" />
       <workItem from="1667988475285" duration="291000" />
     </task>
+    <task id="LOCAL-00001" summary="mvc pattern added">
+      <created>1668250966325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668250966325</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mvc pattern added">
+      <created>1668253529677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668253529677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +119,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mvc pattern added" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc pattern added" />
   </component>
 </project>
