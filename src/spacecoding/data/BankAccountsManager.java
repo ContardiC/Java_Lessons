@@ -4,17 +4,16 @@ import java.util.Vector;
 
 public class BankAccountsManager {
     public static void main(String[] args) {
-        Vector bankAccounts = new Vector(1,0);
+        //Vector bankAccounts = new Vector(1,0);
+        Vector<BankAccount> bankAccounts = new Vector<BankAccount>(1,0);
         BankAccount bankAccount1 = new BankAccount("123456789","Mario","Rossi",50000);
-        BankAccount bankAccount2 = new BankAccount("987654321","Giovanni","Mela",50000);
 
         // aggiungo gli elementi all'array
         bankAccounts.add(bankAccount1);
-        bankAccounts.add(bankAccount2);
+        bankAccounts.add(new BankAccount("987654321","Giovanni","Mela",50000));
 
         // visualizzo il numero di elementi dell'array
         System.out.println("Ci sono memorizzati: "+bankAccounts.size()+ " conti correnti");
-
         // visualizzo il primo elemento
         System.out.println(bankAccounts.firstElement().toString());
         // visualizzo l'ultimo elemento

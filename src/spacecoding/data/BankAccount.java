@@ -1,10 +1,10 @@
 package spacecoding.data;
 
 public class BankAccount {
-    private String socialSecurityNumber;
-    private String firstName;
-    private String lastName;
-    private double balance;
+    private String socialSecurityNumber; // identificativo univoco persona
+    private String firstName; // nome
+    private String lastName; // cognome
+    private double balance; // saldo
 
     public BankAccount(String socialSecurityNumber, String firstName, String lastName, double initialBalance) {
         this.socialSecurityNumber = socialSecurityNumber;
