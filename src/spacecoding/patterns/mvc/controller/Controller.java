@@ -40,7 +40,7 @@ public class Controller implements ActionListener {
                 if(note.getTitle().equals("")){
                     noteTitle="SENZA NOME"+";";
                 }else{
-                    noteTitle=note.getTitle();
+                    noteTitle=note.getTitle()+";";
                 }
                 noteBody=note.getBody();
                 try {

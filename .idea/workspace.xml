@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="mvc pattern added">
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/data/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/data/BankAccountsManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/math/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_22,_10_14_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_11_22__10_14__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/notes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/model/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/view/NoteWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/patterns/mvc/view/NoteWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.spacecoding.patterns.mvc.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19/Contents/Home" />
@@ -116,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668253800244</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mvc pattern added">
+      <created>1668255592180</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668255592180</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
