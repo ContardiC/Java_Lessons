@@ -54,6 +54,16 @@ public class BankAccount {
     public void deposit(double amount){
         balance+=amount;
     }
+
+    @Override
+    public String toString() {
+        return "BankAccount{" +
+                "socialSecurityNumber='" + socialSecurityNumber + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", balance=" + balance +
+                '}';
+    }
 }
 
 
