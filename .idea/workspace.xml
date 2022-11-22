@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/basicop/InAndOut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Nodo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/geometry/TestPoint.java" afterDir="false" />
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="Packages riorganizzati">
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Lista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/ListaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Note.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/array/oggetti/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/array/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/array/oggetti/Mese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/array/Mese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/array/oggetti/Mesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/array/Mesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/BankAccountsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccountsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/BankAccountsManager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccountsManager2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/geometry/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/geometry/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Nodo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +66,14 @@
       <workItem from="1665416973749" duration="76000" />
       <workItem from="1667988475285" duration="291000" />
     </task>
+    <task id="LOCAL-00001" summary="Packages riorganizzati">
+      <created>1669103176162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669103176162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Packages riorganizzati" />
+    <option name="LAST_COMMIT_MESSAGE" value="Packages riorganizzati" />
   </component>
 </project>
