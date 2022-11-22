@@ -1,4 +1,4 @@
-package spacecoding.array.oggetti;
+package spacecoding.data.array;
 
 public class Mese {
     private String nome;

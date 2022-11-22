@@ -1,4 +1,4 @@
-package spacecoding.data;
+package spacecoding.data.array;
 
 import java.util.Vector;
 
