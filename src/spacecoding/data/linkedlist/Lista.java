@@ -7,14 +7,7 @@ public class Lista {
         head=null;
         elementi=0;
     }
-    /* TODO: implementare esamina
-    public void visitaLista(){
-        Nodo p = head;
-        while(p!=null){
 
-        }
-    }
-    */
     public Nodo getLinkPosizione(int posizione) throws ListaException {
         int n=1;
         Nodo p=head;
