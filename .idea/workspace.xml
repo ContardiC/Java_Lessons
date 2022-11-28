@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="Linked List added">
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/BooksManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/TestLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/TestLista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.TestLista">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19/Contents/Home" />
@@ -83,7 +83,8 @@
       <workItem from="1665416973749" duration="76000" />
       <workItem from="1667988475285" duration="291000" />
       <workItem from="1669120976581" duration="104000" />
-      <workItem from="1669123514924" duration="1965000" />
+      <workItem from="1669123514924" duration="2008000" />
+      <workItem from="1669631174371" duration="327000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
@@ -106,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669114538710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Linked List added">
+      <created>1669126561137</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669126561137</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
