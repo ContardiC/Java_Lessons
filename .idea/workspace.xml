@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="esercitazioni added">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_22,_08_32_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_22_11_22__08_32__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/BooksManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/BooksManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/TestBooksManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/TestBooksManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="esercitazioni added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -102,7 +96,7 @@
       <workItem from="1669120976581" duration="104000" />
       <workItem from="1669123514924" duration="2008000" />
       <workItem from="1669631174371" duration="327000" />
-      <workItem from="1669710015514" duration="447000" />
+      <workItem from="1669710015514" duration="758000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
@@ -132,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669126561137</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="esercitazioni added">
+      <created>1669710770400</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669710770400</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Packages riorganizzati" />
     <MESSAGE value="Linked List added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linked List added" />
+    <MESSAGE value="esercitazioni added" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercitazioni added" />
   </component>
 </project>
