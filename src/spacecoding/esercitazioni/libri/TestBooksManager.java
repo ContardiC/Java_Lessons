@@ -10,6 +10,7 @@ public class TestBooksManager {
         books[2]=new Book("Georges Ivanovič","Gurdjieff","La vita è reale solo quando io sono",400);
         int i=0;
         System.out.println("---> ELENCO LIBRI");
+
         while(books[i]!=null){
             System.out.println(books[i].toString());
             i++;

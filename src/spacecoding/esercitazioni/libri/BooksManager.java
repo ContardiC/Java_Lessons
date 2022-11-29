@@ -2,8 +2,17 @@ package spacecoding.esercitazioni.libri;
 
 public class BooksManager {
     public static Book[] arrayByAuthor(Book[] books, String authorFn, String authorLn){
-        Book[] selection=new Book[100];
-        int j=0,i=0;
+        int booksByAuthor=0;
+        int i=0;
+        while(books[i]!=null&&i<100){
+            if(books[i].getAuthorFirstName().equals(authorFn)&&books[i].getAuthorLastName().equals(authorLn)){
+                booksByAuthor++;
+            }
+            i++;
+        }
+        Book[] selection=new Book[booksByAuthor+1];
+        int j=0;
+        i=0;
         while(books[i]!=null){
             if(books[i].getAuthorFirstName().equals(authorFn)&&books[i].getAuthorLastName().equals(authorLn)){
                 selection[j]=books[i];
@@ -30,7 +39,7 @@ public class BooksManager {
         int i=0;
         while(book[i]!=null){
             if(book[i].getTitle().equals(title)){
-              return true;
+                return true;
             }
             i++;
         }
