@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="BankAccountsManager added">
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/TestBooksManager.java" afterDir="false" />
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/threads/Counter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/threads/Piano.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/threads/TestCounter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/threads/TestPiano.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/BooksManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/esercitazioni/libri/BooksManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/threads/TestCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/threads/TestCounter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,39 +44,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestBooksManager">
-    <configuration name="BankAccountsManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spacecoding.data.BankAccountsManager" />
-      <module name="Java Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spacecoding.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestPiano">
     <configuration name="BankAccountsManager2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spacecoding.data.BankAccountsManager2" />
       <module name="Java Lessons" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="spacecoding.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoteWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spacecoding.patterns.mvc.view.NoteWindow" />
-      <module name="Java Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spacecoding.patterns.mvc.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +71,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spacecoding.patterns.mvc.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spacecoding.patterns.mvc.Main" />
+    <configuration name="TestCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacecoding.threads.TestCounter" />
       <module name="Java Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spacecoding.patterns.mvc.*" />
+          <option name="PATTERN" value="spacecoding.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCounter2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacecoding.threads.TestCounter2" />
+      <module name="Java Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spacecoding.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPiano" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacecoding.threads.TestPiano" />
+      <module name="Java Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spacecoding.threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestPiano" />
+        <item itemvalue="Application.TestCounter2" />
+        <item itemvalue="Application.TestCounter" />
         <item itemvalue="Application.TestBooksManager" />
         <item itemvalue="Application.BankAccountsManager2" />
-        <item itemvalue="Application.BankAccountsManager" />
-        <item itemvalue="Application.spacecoding.patterns.mvc.Main" />
-        <item itemvalue="Application.NoteWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669047469629</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1669906073612</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669906073612</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +215,8 @@
     <MESSAGE value="mvc pattern added" />
     <MESSAGE value="BankAccountAdded" />
     <MESSAGE value="BankAccountsManager added" />
-    <option name="LAST_COMMIT_MESSAGE" value="BankAccountsManager added" />
+    <MESSAGE value="thread counter added" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
 </project>
