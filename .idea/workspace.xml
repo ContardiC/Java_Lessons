@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="esercitazioni added">
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/threads/semaphores/SemaphoreExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="Semaphore example added">
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/threads/semaphores/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1669710015514" duration="758000" />
       <workItem from="1671531904004" duration="602000" />
       <workItem from="1673334555964" duration="55000" />
-      <workItem from="1674557046176" duration="71000" />
+      <workItem from="1674557046176" duration="127000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
@@ -140,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669710770400</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Semaphore example added">
+      <created>1674557129577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674557129577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +167,7 @@
     <MESSAGE value="Packages riorganizzati" />
     <MESSAGE value="Linked List added" />
     <MESSAGE value="esercitazioni added" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercitazioni added" />
+    <MESSAGE value="Semaphore example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Semaphore example added" />
   </component>
 </project>
