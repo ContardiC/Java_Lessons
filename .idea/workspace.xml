@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="Semaphore example added">
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/threads/semaphores/Printer.java" afterDir="false" />
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="Printer example added">
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/threads/semaphores/ConnectionPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +102,7 @@
       <workItem from="1669710015514" duration="758000" />
       <workItem from="1671531904004" duration="602000" />
       <workItem from="1673334555964" duration="55000" />
-      <workItem from="1674557046176" duration="127000" />
+      <workItem from="1674557046176" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
@@ -146,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674557129577</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Printer example added">
+      <created>1674557186698</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674557186698</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +175,7 @@
     <MESSAGE value="Linked List added" />
     <MESSAGE value="esercitazioni added" />
     <MESSAGE value="Semaphore example added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Semaphore example added" />
+    <MESSAGE value="Printer example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Printer example added" />
   </component>
 </project>
