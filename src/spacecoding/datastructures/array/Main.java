@@ -1,4 +1,4 @@
-package spacecoding.data.array;
+package spacecoding.datastructures.array;
 
 import java.io.BufferedReader;
 import java.io.IOException;

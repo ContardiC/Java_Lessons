@@ -1,4 +1,4 @@
-package spacecoding.data.array;
+package spacecoding.datastructures.array;
 
 public class BankAccount {
     private String socialSecurityNumber; // identificativo univoco persona

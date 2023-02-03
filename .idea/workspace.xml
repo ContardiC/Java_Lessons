@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="ConnectionPool example added" />
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="ConnectionPool example added">
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/stack/StackExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/stack/StackExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccountsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/BankAccountsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccountsManager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/BankAccountsManager2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/Mese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/Mese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/Mesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/Mesi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/Lista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/ListaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/ListaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/Nodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/TestLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/TestLista.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/carlocontardi/Documents/workspace/Java_Lessons",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/carlocontardi/Documents/workspace/Java_Lessons&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.TestBooksManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19/Contents/Home" />
@@ -59,11 +75,11 @@
       </method>
     </configuration>
     <configuration name="TestLista" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spacecoding.data.linkedlist.TestLista" />
+      <option name="MAIN_CLASS_NAME" value="spacecoding.datastructures.linkedlist.TestLista" />
       <module name="Java Lessons" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="spacecoding.data.linkedlist.*" />
+          <option name="PATTERN" value="spacecoding.datastructures.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,6 +117,7 @@
       <workItem from="1671531904004" duration="602000" />
       <workItem from="1673334555964" duration="55000" />
       <workItem from="1674557046176" duration="544000" />
+      <workItem from="1675416611273" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
@@ -158,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674557224756</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ConnectionPool example added">
+      <created>1675416616046</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1675416616046</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,4 +1,4 @@
-package spacecoding.data.linkedlist;
+package spacecoding.datastructures.linkedlist;
 public class TestLista {
     public static void main(String[] args) {
         Note nota1=new Note("Ricerca sulle lontre","Kotaro e Hana",1);

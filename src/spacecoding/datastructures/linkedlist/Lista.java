@@ -1,4 +1,4 @@
-package spacecoding.data.linkedlist;
+package spacecoding.datastructures.linkedlist;
 
 public class Lista {
     private Nodo head;

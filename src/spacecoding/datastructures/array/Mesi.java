@@ -1,4 +1,4 @@
-package spacecoding.data.array;
+package spacecoding.datastructures.array;
 
 public class Mesi {
     private Mese[] mesi = new Mese[12];

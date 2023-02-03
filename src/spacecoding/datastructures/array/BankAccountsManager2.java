@@ -1,23 +1,21 @@
-package spacecoding.data.array;
+package spacecoding.datastructures.array;
 
-import java.util.Vector;
+import java.util.ArrayList;
 
-public class BankAccountsManager {
+public class BankAccountsManager2 {
     public static void main(String[] args) {
-        //Vector bankAccounts = new Vector(1,0);
-        Vector<BankAccount> bankAccounts = new Vector<BankAccount>(1,0);
+        ArrayList<BankAccount> bankAccounts=new ArrayList<BankAccount>();
         BankAccount bankAccount1 = new BankAccount("123456789","Mario","Rossi",50000);
 
         // aggiungo gli elementi all'array
         bankAccounts.add(bankAccount1);
         bankAccounts.add(new BankAccount("987654321","Giovanni","Mela",50000));
-
         // visualizzo il numero di elementi dell'array
         System.out.println("Ci sono memorizzati: "+bankAccounts.size()+ " conti correnti");
         // visualizzo il primo elemento
-        System.out.println(bankAccounts.firstElement().toString());
+        System.out.println(bankAccounts.get(0).toString());
         // visualizzo l'ultimo elemento
-        System.out.println(bankAccounts.lastElement().toString());
+        System.out.println(bankAccounts.get(bankAccounts.size()-1).toString());
         // visualizzo un elemento specificandone la posizione
         System.out.println(bankAccounts.get(0).toString());
         // sostituisco un elemento specificando la posizione
@@ -33,8 +31,6 @@ public class BankAccountsManager {
         }else{
             System.out.println("L'array non è vuoto");
         }
-
-
 
     }
 }
