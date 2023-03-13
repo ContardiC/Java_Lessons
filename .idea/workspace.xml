@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="ConnectionPool example added">
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/stack/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/stack/StackExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/stack/StackExample2.java" afterDir="false" />
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="Stack example added">
+      <change afterPath="$PROJECT_DIR$/CercaParola/src/AlphabetKeyboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CercaParola/src/AlphabetKeyboardListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CercaParola/src/WordSearchApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CercaParola/src/WordSearchGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CercaParola/src/testo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/swing/RadioButtonGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/swing/TestRadioButtonGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccountsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/BankAccountsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/BankAccountsManager2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/BankAccountsManager2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/Mese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/Mese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/array/Mesi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/array/Mesi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Lista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/Lista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/ListaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/ListaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Nodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/Nodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/data/linkedlist/TestLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/datastructures/linkedlist/TestLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Lessons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/inheritance/TestPersons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/inheritance/TestPersons.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestBooksManager">
+  <component name="RunManager" selected="Application.TestRadioButtonGUI">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-19/Contents/Home" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -87,13 +82,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRadioButtonGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacecoding.swing.TestRadioButtonGUI" />
+      <module name="Java Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spacecoding.swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.TestRadioButtonGUI" />
       <item itemvalue="Application.TestBooksManager" />
       <item itemvalue="Application.TestLista" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRadioButtonGUI" />
         <item itemvalue="Application.TestBooksManager" />
         <item itemvalue="Application.TestLista" />
         <item itemvalue="Application.Main" />
@@ -117,7 +127,8 @@
       <workItem from="1671531904004" duration="602000" />
       <workItem from="1673334555964" duration="55000" />
       <workItem from="1674557046176" duration="544000" />
-      <workItem from="1675416611273" duration="344000" />
+      <workItem from="1675416611273" duration="1116000" />
+      <workItem from="1678697123466" duration="881000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
@@ -182,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675416616046</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Stack example added">
+      <created>1675416989154</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675416989154</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +224,7 @@
     <MESSAGE value="Semaphore example added" />
     <MESSAGE value="Printer example added" />
     <MESSAGE value="ConnectionPool example added" />
-    <option name="LAST_COMMIT_MESSAGE" value="ConnectionPool example added" />
+    <MESSAGE value="Stack example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack example added" />
   </component>
 </project>

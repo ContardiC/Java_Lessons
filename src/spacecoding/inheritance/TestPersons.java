@@ -6,7 +6,7 @@ public class TestPersons {
         Student student=new Student("Balza","Verifiche",2005,1);
         System.out.println("Nome della persona: "+ person.getFirstName());
         System.out.println("Nome dello studente: "+ student.getFirstName());
-        System.out.println("Matricola dello studente: " + student.getMatricola());
+        System.out.println("Matricola dello studente: " + student.toString());
         /* uso errato
         System.out.println("Matricola della persona: "+ person.getMatricola());
         */
