@@ -4,19 +4,15 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 class ComboBoxSimple extends JFrame implements ItemListener {
-
-    // frame
-    static JFrame f;
-
-    // label
-    static JLabel l, l1;
-
-    // combobox
     static JComboBox c1;
-
+    static JLabel l, l1;
     // main class
     public static void main(String[] args)
     {
+        JFrame f;
+        // label
+        // combobox
+
         // create a new frame
         f = new JFrame("Esempio ComboBox");
 
@@ -24,7 +20,7 @@ class ComboBoxSimple extends JFrame implements ItemListener {
         ComboBoxSimple s = new ComboBoxSimple();
 
         // set layout of frame
-        f.setLayout(new FlowLayout());
+        f.setLayout(null);
 
         // array of string containing cities
         String s1[] = { "Milano", "Pavia", "Monza", "Bergamo", "Mantova" };
