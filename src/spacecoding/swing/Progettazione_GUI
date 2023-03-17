@@ -1,0 +1,13 @@
+Approccio Top-Down:
+
+si parte dai componenti piùesterni procedendo via via verso quelli più interni
+1. Si assegna un Layout Manager al JFrame per suddividere l’area in zone più piccole
+2. Per ogni area a disposizione si crea un JPanel
+• Ogni pannello può ricorrere ad un Layout differente
+3. Ogni pannello può essere sviluppato creando all’interno altri pannelli e/o inserendo direttamente i controlli
+Il risultato della progettazione può essere
+rappresentato con un albero della GUI
+• Ogni componente è rappresentato da un nodo i cui i figli sono i componenti contenuti all’interno e il padre è il componente che lo contiene
+
+Realizzazione Bottom-Up:
+ si realizzano prima i componenti atomici, risalendo attraverso i Container fino al “pannello dei contenuti” del JFrame

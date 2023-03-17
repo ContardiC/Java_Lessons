@@ -9,13 +9,10 @@ import java.sql.SQLException;
 
 public class App {
     public static void main(String[] args) {
-        InputStreamReader in =new InputStreamReader(System.in);
-        BufferedReader key= new BufferedReader(in);
-        String name, password;
 
         DatabaseManager dbManager=new DatabaseManager();
 
-        ResultSet resultSet= dbManager.getAllUsers();
+        ResultSet resultSet = dbManager.getAllUsers();
         try{
             while(resultSet.next()){
                 //Display values

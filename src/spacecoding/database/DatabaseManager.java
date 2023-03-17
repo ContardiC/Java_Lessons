@@ -11,11 +11,6 @@ public class DatabaseManager {
         this.connection=Database.getDBConnection();
     }
 
-    public Connection getConnection(){
-        return this.connection;
-    }
-
-
     public ResultSet getAllUsers(){
         Statement stmt;
         String sql;

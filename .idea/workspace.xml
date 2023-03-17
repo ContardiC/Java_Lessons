@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="Swing examples added">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CercaParola/CercaParola.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tester/Tester.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tester/src/AscoltatoreLettere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tester/src/AscoltatoreParola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tester/src/GUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tester/src/MainGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/database/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/spacecoding/database/DatabaseManager.java" afterDir="false" />
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="db example added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java Lessons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Lessons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/swing/ComboBoxSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/swing/ComboBoxSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/database/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/database/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spacecoding/database/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/database/DatabaseManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +32,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/carlocontardi/Documents/workspace/Java_Lessons",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/carlocontardi/Documents/workspace/Java_Lessons&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/spacecoding/swing" />
@@ -171,7 +160,8 @@
       <workItem from="1674557046176" duration="544000" />
       <workItem from="1675416611273" duration="1116000" />
       <workItem from="1678697123466" duration="3750000" />
-      <workItem from="1678880104776" duration="3299000" />
+      <workItem from="1678880104776" duration="3484000" />
+      <workItem from="1679045423037" duration="2138000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
@@ -250,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678698668967</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="db example added">
+      <created>1678884487215</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1678884487216</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +273,7 @@
     <MESSAGE value="ConnectionPool example added" />
     <MESSAGE value="Stack example added" />
     <MESSAGE value="Swing examples added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swing examples added" />
+    <MESSAGE value="db example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="db example added" />
   </component>
 </project>
