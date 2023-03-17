@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="db example added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/database/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/database/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/spacecoding/database/DatabaseManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/spacecoding/database/DatabaseManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="swing example added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +51,7 @@
       <recent name="$PROJECT_DIR$/src/spacecoding/swing" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/spacecoding/swing" />
       <recent name="$PROJECT_DIR$/src/spacecoding/database" />
     </key>
   </component>
@@ -162,6 +159,7 @@
       <workItem from="1678697123466" duration="3750000" />
       <workItem from="1678880104776" duration="3484000" />
       <workItem from="1679045423037" duration="2138000" />
+      <workItem from="1679056357436" duration="98000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
@@ -247,7 +245,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678884487216</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="swing example added">
+      <created>1679056437895</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679056437895</updated>
+    </task>
+    <task id="LOCAL-00014" summary="swing example added">
+      <created>1679056448832</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679056448832</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +286,7 @@
     <MESSAGE value="Stack example added" />
     <MESSAGE value="Swing examples added" />
     <MESSAGE value="db example added" />
-    <option name="LAST_COMMIT_MESSAGE" value="db example added" />
+    <MESSAGE value="swing example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="swing example added" />
   </component>
 </project>
