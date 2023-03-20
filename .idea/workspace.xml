@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="swing example added" />
+    <list default="true" id="991eb185-1fa7-4944-8411-8955c12151cf" name="Changes" comment="swing example added">
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/swing/ComboBoxGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spacecoding/swing/TestComboBoxGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,13 +59,26 @@
       <recent name="$PROJECT_DIR$/src/spacecoding/database" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.TestComboBoxGUI">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spacecoding.database.App" />
       <module name="Java Lessons" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="spacecoding.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComboBoxPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacecoding.swing.ComboBoxPlus" />
+      <module name="Java Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spacecoding.swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,25 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgressBarSimply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spacecoding.swing.ProgressBarSimply" />
+    <configuration name="TestComboBoxGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacecoding.swing.TestComboBoxGUI" />
       <module name="Java Lessons" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="spacecoding.swing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestBooksManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spacecoding.esercitazioni.libri.TestBooksManager" />
-      <module name="Java Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spacecoding.esercitazioni.libri.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,19 +126,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ComboBoxPlus" />
+      <item itemvalue="Application.TestComboBoxGUI" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.ComboBoxSimple" />
-      <item itemvalue="Application.ProgressBarSimply" />
       <item itemvalue="Application.TestRadioButtonGUI" />
-      <item itemvalue="Application.TestBooksManager" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.ProgressBarSimply" />
+        <item itemvalue="Application.TestComboBoxGUI" />
+        <item itemvalue="Application.ComboBoxPlus" />
         <item itemvalue="Application.TestRadioButtonGUI" />
         <item itemvalue="Application.ComboBoxSimple" />
-        <item itemvalue="Application.TestBooksManager" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +164,7 @@
       <workItem from="1678880104776" duration="3484000" />
       <workItem from="1679045423037" duration="2138000" />
       <workItem from="1679056357436" duration="98000" />
+      <workItem from="1679303246355" duration="1702000" />
     </task>
     <task id="LOCAL-00001" summary="Packages riorganizzati">
       <created>1669103176162</created>
