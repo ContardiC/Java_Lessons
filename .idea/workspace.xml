@@ -59,20 +59,7 @@
       <recent name="$PROJECT_DIR$/src/spacecoding/database" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestComboBoxGUI">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spacecoding.database.App" />
-      <module name="Java Lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="spacecoding.database.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Hello">
     <configuration name="ComboBoxPlus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="spacecoding.swing.ComboBoxPlus" />
       <module name="Java Lessons" />
@@ -92,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="spacecoding.swing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spacecoding.basicop.Hello" />
+      <module name="Java Lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="spacecoding.basicop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +126,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Hello" />
       <item itemvalue="Application.ComboBoxPlus" />
       <item itemvalue="Application.TestComboBoxGUI" />
-      <item itemvalue="Application.App" />
       <item itemvalue="Application.ComboBoxSimple" />
       <item itemvalue="Application.TestRadioButtonGUI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hello" />
         <item itemvalue="Application.TestComboBoxGUI" />
         <item itemvalue="Application.ComboBoxPlus" />
         <item itemvalue="Application.TestRadioButtonGUI" />
         <item itemvalue="Application.ComboBoxSimple" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
