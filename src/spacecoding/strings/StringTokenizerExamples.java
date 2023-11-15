@@ -14,6 +14,7 @@ public class StringTokenizerExamples {
         }
         // esempio di token con separatore (punto e virgola)
         StringTokenizer films = new StringTokenizer("Blade Runner;E.T.;Il Cavaliere Oscuro",";");
+        System.out.println("Sono registrati " + films.countTokens() +" films");
         while(films.hasMoreTokens()){
             System.out.println(films.nextToken());
         }
