@@ -25,6 +25,7 @@ class TextFileExamples{
         //FileReader
         try{
             FileReader reader = new FileReader(file);
+            // il metodo read utilizza un array di caratteri
             reader.read(array);
             System.out.println(array);
             reader.close();
