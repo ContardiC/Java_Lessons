@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class MyFrame extends JFrame {
     JLabel jLabel=new JLabel("Buona lezione");
-
+    
     public MyFrame(){
         //costruttore
         super("Prima finestra");
@@ -13,6 +13,7 @@ public class MyFrame extends JFrame {
         //Metodi di JFrame
         this.setSize(200,200);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
         this.setVisible(true);
     }
 }
