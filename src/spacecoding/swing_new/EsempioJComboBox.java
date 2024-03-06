@@ -18,8 +18,8 @@ public class EsempioJComboBox {
     }
 
     private void prepareGUI() {
-        mainFrame = new JFrame("Esempio Java Swing");
-        mainFrame.setSize(400, 400);
+        mainFrame = new JFrame("Esempio Java Swing - JComboBox");
+        mainFrame.setSize(600, 400);
         mainFrame.setLayout(new GridLayout(3, 1));
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
        
