@@ -18,7 +18,7 @@ public class EsempioJCheckBox {
     }
 
     private void prepareGUI() {
-        mainFrame = new JFrame("Esempio Java Swing");
+        mainFrame = new JFrame("Esempio Java Swing - JCheckBox");
         mainFrame.setSize(400, 400);
         mainFrame.setLayout(new GridLayout(3, 1));
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
