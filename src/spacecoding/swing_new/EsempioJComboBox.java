@@ -3,6 +3,7 @@ import java.awt.*;
 import javax.swing.*;
 
 public class EsempioJComboBox {
+    
     private JFrame mainFrame;
     private JLabel headerLabel;
     private JLabel statusLabel;
