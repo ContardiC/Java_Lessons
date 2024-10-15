@@ -40,6 +40,13 @@ public class Point {
         this.name = name;
     }
 
+    public double distance(Point o){
+        double res;
+        res = Math.sqrt(Math.pow((o.getX() - this.x),2) + Math.pow((o.getY() - this.y),2));
+        return res;
+    } 
+
+
     @Override
     public String toString() {
         return "Point{" +
