@@ -28,3 +28,4 @@ public class Database {
         return dbConnection;
     }
 }
+// TODO1: Rifare questa sezione 
