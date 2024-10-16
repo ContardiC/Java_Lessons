@@ -48,5 +48,18 @@ public class ArrayListExamples {
 
         System.out.println(cars.size());
         System.out.println(cars.isEmpty());
+
+        ArrayList<String> names = new ArrayList<String>();
+        names.add("James");
+        names.add("Jack");
+
+        ArrayList<Object> names2 = new ArrayList<Object>();
+        names2.add("James");
+        names2.add("Jack");
+        // confronta gli elementi in ordine se l'ordine cambia restituirà false
+        System.out.println(names.equals(names2));
+
+        // ArrayList<Integer> = {1,2,3,4,5} non su può inizializzare come un array
+        
     }
 }
