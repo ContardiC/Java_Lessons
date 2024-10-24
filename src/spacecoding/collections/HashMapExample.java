@@ -22,10 +22,10 @@ public class HashMapExample{
 
         agesMap.remove("Alex");
         agesMap.replace("Nino", 8);
-
+        // memorizzo il valore precedente al replace
         int ageOfNino = agesMap.replace("Nino", 9);
 
-        System.out.println("stampa ha ragione Galasso? 8 " + ageOfNino); 
+        System.out.println("stampa il valore precedente  " + ageOfNino); 
         System.out.println("Ages Map : " + agesMap.toString());
 
     }
