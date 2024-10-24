@@ -2,7 +2,7 @@ package spacecoding.collections;
 import java.util.HashMap;
 public class HashMapExample{
     public static void main(String[] args) {
-        HashMap<String, Integer> agesMap = new HashMap<String, Integer>();
+        HashMap<String,  Integer> agesMap = new HashMap<String, Integer>();
         agesMap.put("Nino",9);
         agesMap.put("Gino",8);
         agesMap.put("Alex",2);
@@ -22,6 +22,10 @@ public class HashMapExample{
 
         agesMap.remove("Alex");
         agesMap.replace("Nino", 8);
+
+        int ageOfNino = agesMap.replace("Nino", 9);
+
+        System.out.println("stampa ha ragione Galasso? 8 " + ageOfNino); 
         System.out.println("Ages Map : " + agesMap.toString());
 
     }
