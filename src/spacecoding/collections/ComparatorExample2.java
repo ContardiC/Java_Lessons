@@ -12,7 +12,7 @@ public class ComparatorExample2{
         carsList.add(new Car("Audi R8", 2022, 170000.0));
 
         System.out.println(carsList.toString());
-
+        //confronta con il metodo .comparing() in base al criterio che specifichiamo come argomento
         Comparator<Car> comparator = Comparator.comparing(Car::getYear);
         Collections.sort(carsList,comparator);
 
