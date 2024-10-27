@@ -14,6 +14,6 @@ class ListExamples{
         list5.add("Hello Java Developers");
 
         String message = (String)list5.get(0);  //  Casting to String
-
+        System.out.println(message);
     }
 }
