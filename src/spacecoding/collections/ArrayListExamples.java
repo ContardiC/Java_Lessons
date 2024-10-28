@@ -12,12 +12,15 @@ public class ArrayListExamples {
         mixList.add("Java");
         mixList.add(10);
         mixList.add(true);
+        
         System.out.println("mixList = " + mixList.toString());
 
         ArrayList<String> animals = new ArrayList<String>();
         animals.add("Lion");
         animals.add("Cat");
+        System.out.println("animals = " + animals.toString());
         animals.add(2,"Dog");
+        System.out.println("animals = " + animals.toString());
         animals.add(1, "Cow");
         System.out.println("animals = " + animals.toString());
         // remove 1 item using index

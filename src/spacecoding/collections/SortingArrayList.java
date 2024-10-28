@@ -18,9 +18,9 @@ public class SortingArrayList {
         list1.add(12.0);
 
         System.out.println("unsorted list =  " + list1.toString());
-
+        
         Collections.sort(list1);
-
+        
         System.out.println("sorted list =  " + list1.toString());
 
         System.out.println("--------- Sorting Character List --------");
@@ -45,11 +45,11 @@ public class SortingArrayList {
         list4.add ("Dog");
         list4. add ("Monkey"); list4.add ("Lion");
         list4.add ("elephant");
-        list4. add ("Cow");
+        list4. add ("catania");
 
         System.out.println("unsorted list =  " + list4.toString());
 
-        Collections.sort(list2);
+        Collections.sort(list4);
 
         System.out.println("sorted list =  " + list4.toString());
         // ordina prima le lettere maiuscole in quanto sono prima delle minuscole nella ASCII table !!! 😀
