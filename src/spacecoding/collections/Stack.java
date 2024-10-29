@@ -1,4 +1,4 @@
-package spacecoding.datastructures.stack;
+package spacecoding.collections;
 
 public class Stack {
     int[] elements;

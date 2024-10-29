@@ -1,4 +1,4 @@
-package spacecoding.datastructures.linkedlist;
+package spacecoding.collections.linkedlist;
 
 public class ListaException extends Exception{
     private String error="";
