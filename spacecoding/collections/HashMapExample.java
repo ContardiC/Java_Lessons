@@ -15,7 +15,7 @@ public class HashMapExample{
         System.out.println("Age of Gino: " + agesMap.get("Gino"));
 
         // visuallizzo tutte le età con un foreach
-
+        
         for(String key : agesMap.keySet()){
             System.out.println("Age of: " +  key + "is : " + agesMap.get(key));
         }

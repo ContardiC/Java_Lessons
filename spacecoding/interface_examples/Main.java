@@ -4,7 +4,7 @@ public class Main {
         Animale animale1 = new Cane();
         Animale animale2 = new Gatto();
 
-        animale1.faiRumore(); // Output: Bau bau!
-        animale2.muoviti(); // Output: Il gatto sta saltando.
+        animale1.faiRumore();
+        animale2.muoviti();
     }
 }
