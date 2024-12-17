@@ -12,11 +12,11 @@ class TextFileExamples{
         char[] array = new char[100];
         // scrittura del file
         try{
-            FileWriter writer = new FileWriter(file);
-            writer.write("Un mio gatto si chiama Gino \n");
-            
-            writer.write("e l'altro Nino");
-            writer.close();
+            FileWriter fileWriter = new FileWriter(file);
+            fileWriter.write("Un mio gatto si chiama Gino \n");
+            fileWriter.write("e l'altro Nino");
+            // dopo aver scritto chiudere lo stream 
+            fileWriter.close();
         }catch(IOException e){
             System.out.println("Errore apertura file");
             e.printStackTrace();
