@@ -1,10 +1,13 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class LoginForm{
     public static void addComponentsToPanel(JPanel panel){
@@ -22,10 +25,29 @@ public class LoginForm{
         panel.add(textPassword);
         panel.add(buttonCancel);
         panel.add(buttonLogin);
+        buttonLogin.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if(checkData(textUser.getText(), textPassword.getText())){
+                    JOptionPane.showMessageDialog(panel, "Hello " + textUser.getText(), "Login Message", JOptionPane.INFORMATION_MESSAGE);
+                }else{
+                    JOptionPane.showMessageDialog(panel, "Wrong Credentials","Login message",JOptionPane.ERROR_MESSAGE);
+                }
+            }
+        });
+        buttonCancel.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                textUser.setText("");
+                textPassword.setText("");
+            }
+        });
     }
     public static boolean checkData(String username, String password){
-        // TODO: add data checking
-        return true;
+        if(username.equals("java") && password.equals("secret")){
+            return true;
+        }
+        return false;
     }
     public static void main(String[] args) {
         JFrame frame = new JFrame("Login");
