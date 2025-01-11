@@ -23,8 +23,9 @@ public class LoginForm{
         panel.add(buttonCancel);
         panel.add(buttonLogin);
     }
-    public static checkData(String username, String password){
+    public static boolean checkData(String username, String password){
         // TODO: add data checking
+        return true;
     }
     public static void main(String[] args) {
         JFrame frame = new JFrame("Login");
