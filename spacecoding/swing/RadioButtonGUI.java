@@ -17,9 +17,9 @@ class RadioButtonGUI extends JFrame {
 
     // Declaration of object of JButton class.
     JButton jButton;
-
+   
     // Declaration of object of ButtonGroup class.
-    ButtonGroup G1;
+    ButtonGroup buttonGroup;
 
     // Declaration of object of JLabel class.
     JLabel L1;
@@ -41,7 +41,7 @@ class RadioButtonGUI extends JFrame {
         jButton = new JButton("Click");
 
         // Initialization of object of "ButtonGroup" class.
-        G1 = new ButtonGroup();
+        buttonGroup = new ButtonGroup();
 
         // Initialization of object of " JLabel" class.
         L1 = new JLabel("Gioco preferito");
@@ -65,36 +65,37 @@ class RadioButtonGUI extends JFrame {
         this.add(L1);
 
         // Adding "jRadioButton1" and "jRadioButton3" in a Button Group "G2".
-        G1.add(jRadioButton1);
-        G1.add(jRadioButton2);
+        buttonGroup.add(jRadioButton1);
+        buttonGroup.add(jRadioButton2);
 
         // Adding Listener to JButton.
         jButton.addActionListener(new ActionListener() {
-
+            
             public void actionPerformed(ActionEvent e)
             {
-                // Override Method
+                
 
                 // Declaration of String class Objects.
-                String qual = " ";
+                String prefGame = " ";
 
                 // If condition to check if jRadioButton2 is selected.
                 if (jRadioButton1.isSelected()) {
 
-                    qual = "League of Legends";
+                    // prefGame = "League of Legends";
+                    prefGame = jRadioButton1.getText();
                 }
 
                 else if (jRadioButton2.isSelected()) {
 
-                    qual = "Valorant";
+                    prefGame = "Valorant";
                 }
                 else {
 
-                    qual = "Nessuna scelta effettuata";
+                    prefGame = "Nessuna scelta effettuata";
                 }
 
                 // MessageDialog to show information selected radio buttons.
-                JOptionPane.showMessageDialog(RadioButtonGUI.this, qual);
+                JOptionPane.showMessageDialog(RadioButtonGUI.this, prefGame);
             }
         });
     }
