@@ -27,7 +27,7 @@ class RadioButtonGUI extends JFrame {
     // Constructor of Demo class.
     public RadioButtonGUI()
     {
-
+        
         // Setting layout as null of JFrame.
         this.setLayout(new FlowLayout());
 
@@ -84,7 +84,6 @@ class RadioButtonGUI extends JFrame {
                     // prefGame = "League of Legends";
                     prefGame = jRadioButton1.getText();
                 }
-
                 else if (jRadioButton2.isSelected()) {
 
                     prefGame = "Valorant";
@@ -93,7 +92,6 @@ class RadioButtonGUI extends JFrame {
 
                     prefGame = "Nessuna scelta effettuata";
                 }
-
                 // MessageDialog to show information selected radio buttons.
                 JOptionPane.showMessageDialog(RadioButtonGUI.this, prefGame);
             }
