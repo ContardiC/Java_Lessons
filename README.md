@@ -24,7 +24,7 @@ Questo repository contiene lezioni e esempi di codice Java organizzati in vari p
 - **strings**: Operazioni sulle stringhe.
 - **swing**: Esempi di interfacce grafiche con Swing.
 - **swing_new**: Nuovi esempi di interfacce grafiche con Swing.
-- **threads**: Programmazione multithread.
+
 
 ## Struttura del Progetto
 
